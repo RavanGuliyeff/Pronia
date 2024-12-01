@@ -43,6 +43,7 @@ namespace ProniaWebApp.Areas.Manage.Controllers
                 return View(vm);
             }
 
+
             Category category = new Category()
             {
                 Name = vm.Name

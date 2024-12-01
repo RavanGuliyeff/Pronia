@@ -1,6 +1,7 @@
 ﻿@model List<Product>
 @{
 	ushort No = 0;
+	sbyte commaCheck = 0;
 }
 
 <!-- Begin Page Content -->
@@ -45,13 +46,21 @@
 								<th>
 									@foreach(ProductCategory cat in item.ProductCategories)
 									{
-										@cat.Category.Name
+										commaCheck++;
+										@cat.Category.Name @(item.ProductCategories.Count == commaCheck ? "":", ")
+									}
+									@{
+										commaCheck = 0;
 									}
 								</th>
 								<th>
 									@foreach(ProductTag tag in item.ProductTags)
 									{
-										@tag.Tag.Name
+										commaCheck++;
+										@tag.Tag.Name @(item.ProductTags.Count == commaCheck ? "" : ", ")
+									}
+									@{
+										commaCheck = 0;
 									}
 								</th>
 								<th>@item.SKU</th>

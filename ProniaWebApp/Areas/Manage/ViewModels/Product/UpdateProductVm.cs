@@ -8,7 +8,7 @@
         public string SKU { get; set; }
         public double Price { get; set; }
         //public List<int>? ImageIds { get; set; }
-        public List<int>? CategoryIds { get; set; }
-        public List<int>? TagIds { get; set; }
+        public List<int> CategoryIds { get; set; }
+        public List<int> TagIds { get; set; }
     }
 }
