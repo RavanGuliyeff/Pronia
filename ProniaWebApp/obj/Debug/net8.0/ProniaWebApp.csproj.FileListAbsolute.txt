@@ -562,3 +562,4 @@ C:\Users\revan\Desktop\Development\CodeAcademy\Tasks\Pronia\ProniaWebApp\obj\Deb
 C:\Users\revan\Desktop\Development\CodeAcademy\Tasks\Pronia\ProniaWebApp\obj\Debug\net8.0\ProniaWebApp.pdb
 C:\Users\revan\Desktop\Development\CodeAcademy\Tasks\Pronia\ProniaWebApp\obj\Debug\net8.0\ProniaWebApp.genruntimeconfig.cache
 C:\Users\revan\Desktop\Development\CodeAcademy\Tasks\Pronia\ProniaWebApp\obj\Debug\net8.0\ref\ProniaWebApp.dll
+C:\Users\revan\Desktop\Development\CodeAcademy\Tasks\Pronia\ProniaWebApp\obj\Debug\net8.0\ProniaWebApp.sourcelink.json
