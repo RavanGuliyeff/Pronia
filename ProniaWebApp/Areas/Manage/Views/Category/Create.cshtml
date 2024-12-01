@@ -1,0 +1,15 @@
+﻿@model CreateCategoryVm
+
+<div class="container">
+
+    <form method="Post">
+        <div class="form-group">
+            <label asp-for="Name">Name</label>
+            <input class="form-control" placeholder="Enter name: " asp-for="Name">
+            <span asp-validation-for="Name" style="color:red"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>

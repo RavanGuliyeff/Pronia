@@ -3,7 +3,7 @@
 namespace ProniaWebApp.Areas.Manage.Controllers
 {
     [Area("Manage")]
-    public class HomeController : Controller
+    public class SliderController : Controller
     {
         public IActionResult Index()
         {

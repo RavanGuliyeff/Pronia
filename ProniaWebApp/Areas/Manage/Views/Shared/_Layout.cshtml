@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Admin - Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="~/Manage/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -144,9 +144,10 @@
                 </a>
                 <div id="collapseTables" class="collapse" aria-labelledby="headingTables" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="login.html">Products</a>
-                        <a class="collapse-item" href="register.html">Categories</a>
-                        <a class="collapse-item" href="forgot-password.html">Slider</a>
+                        <a class="collapse-item" asp-controller="Product" asp-action="Index">Products</a>
+                        <a class="collapse-item" asp-controller="Category" asp-action="Index" >Categories</a>
+                        <a class="collapse-item" asp-controller="Tag" asp-action="Index" >Tags</a>
+                        <a class="collapse-item" asp-controller="Slider" asp-action="Index" >Slider</a>
 
                     </div>
                 </div>
