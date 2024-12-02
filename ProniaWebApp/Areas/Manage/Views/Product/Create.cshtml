@@ -2,7 +2,7 @@
 
 <div class="container">
 
-    <form method="post">
+    <form method="post" enctype="multipart/form-data">
 
         <div class="row">
             <div class="col-md-4">
@@ -34,7 +34,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label asp-for="CategoryIds" >Category</label>
+                    <label asp-for="CategoryIds">Category</label>
                     <select multiple class="form-control" asp-for="CategoryIds" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
                     </select>
                     <span asp-validation-for="CategoryIds" style="color:red"></span>
@@ -55,6 +55,24 @@
             <label asp-for="Description">Description</label>
             <textarea asp-for="Description" class="form-control" rows="3"></textarea>
             <span asp-validation-for="Description" style="color:red"></span>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <label asp-for="MainPhoto">Main Photo</label>
+                    <input asp-for="MainPhoto" class="form-control" >
+                    <span asp-validation-for="MainPhoto" style="color:red"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <label asp-for="Images">Product Images</label>
+                    <input asp-for="Images" class="form-control">
+                    <span asp-validation-for="Images" style="color:red"></span>
+                </div>
+            </div>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
