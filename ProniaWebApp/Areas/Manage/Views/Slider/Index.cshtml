@@ -1,5 +1,66 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model List<Slider>
 @{
+	ushort No = 0;
 }
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+	<!-- Page Heading -->
+	<h1 class="h3 mb-2 text-gray-800">Slider</h1>
+	<p class="mb-4">
+		You can manage slider here.
+	</p>
+
+	<!-- DataTales Example -->
+	<div class="card shadow mb-4">
+		<div class="card-header py-3 d-flex justify-content-between align-items-center">
+			<h6 class="m-0 font-weight-bold text-primary">Tag table</h6>
+			<a class="btn btn-primary" asp-action="Create">Add</a>
+		</div>
+
+		<div class="card-body">
+			<div class="table-responsive">
+				<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+					<thead>
+						<tr>
+							<th>No</th>
+							<th>Id</th>
+							<th>Up Title</th>
+							<th>Down Title</th>
+							<th>Description</th>
+							<th>Picture</th>
+							<th>Edit</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (Slider item in Model)
+						{
+							<tr>
+								<th>@(++No)</th>
+								<th>@item.Id</th>
+								<th>@item.UpTitle</th>
+								<th>@item.DownTitle</th>
+								<th>@item.Description</th>
+								<th>
+									<div style="width:150px; overflow:hidden;">
+										<img width="100%" class="product-image" src="~/Upload/Slider/@item.ImgUrl" />
+									</div>
+
+								</th>
+								<th>
+									<a class="btn btn-secondary" asp-action="Update" asp-route-id=@item.Id>Update</a>
+									<a class="btn btn-danger" asp-action="Delete" asp-route-id=@item.Id>Delete</a>
+								</th>
+							</tr>
+						}
+
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- /.container-fluid -->
+<!-- End of Main Content -->

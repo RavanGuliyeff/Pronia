@@ -2,63 +2,118 @@
 
 <div class="container">
 
-    <form method="post">
+	<form method="post" enctype="multipart/form-data">
 
-        <div class="row">
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label asp-for="Name">Name</label>
-                    <input asp-for="Name" class="form-control" placeholder="Enter Name:">
-                    <span asp-validation-for="Name" style="color:red"></span>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-group">
+					<label asp-for="Name">Name</label>
+					<input asp-for="Name" class="form-control" placeholder="Enter Name:">
+					<span asp-validation-for="Name" style="color:red"></span>
+				</div>
+			</div>
 
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label asp-for="SKU">SKU</label>
-                    <input asp-for="SKU" class="form-control" placeholder=@Model.SKU readonly>
-                    <span asp-validation-for="SKU" style="color:red"></span>
-                </div>
-            </div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label asp-for="SKU">SKU</label>
+					<input asp-for="SKU" class="form-control" placeholder="Enter SKU:">
+					<span asp-validation-for="SKU" style="color:red"></span>
+				</div>
+			</div>
 
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label asp-for="Price">Price</label>
-                    <input asp-for="Price" class="form-control" type="number" min="0" step="0.01" placeholder="Enter Price:">
-                    <span asp-validation-for="Price" style="color:red"></span>
-                </div>
-            </div>
-        </div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label asp-for="Price">Price</label>
+					<input asp-for="Price" class="form-control" type="number" min="0" step="0.01" placeholder="Enter Price:">
+					<span asp-validation-for="Price" style="color:red"></span>
+				</div>
+			</div>
+		</div>
 
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label asp-for="CategoryIds">Category</label>
-                    <select multiple class="form-control" asp-for="CategoryIds" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
-                    </select>
-                    <span asp-validation-for="CategoryIds" style="color:red"></span>
-                </div>
-            </div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label asp-for="CategoryIds">Category</label>
+					<select multiple class="form-control" asp-for="CategoryIds" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
+					</select>
+					<span asp-validation-for="CategoryIds" style="color:red"></span>
+				</div>
+			</div>
 
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label asp-for="TagIds">Tag</label>
-                    <select multiple class="form-control" asp-for="TagIds" asp-items="@(new SelectList(ViewBag.Tags, "Id", "Name"))">
-                    </select>
-                    <span asp-validation-for="TagIds" style="color:red"></span>
-                </div>
-            </div>
-        </div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<label asp-for="TagIds">Tag</label>
+					<select multiple class="form-control" asp-for="TagIds" asp-items="@(new SelectList(ViewBag.Tags, "Id", "Name"))">
+					</select>
+					<span asp-validation-for="TagIds" style="color:red"></span>
+				</div>
+			</div>
+		</div>
 
-        <div class="form-group">
-            <label asp-for="Description">Description</label>
-            <textarea asp-for="Description" class="form-control" rows="3"></textarea>
-            <span asp-validation-for="Description" style="color:red"></span>
-        </div>
+		<div class="form-group">
+			<label asp-for="Description">Description</label>
+			<textarea asp-for="Description" class="form-control" rows="3"></textarea>
+			<span asp-validation-for="Description" style="color:red"></span>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+				<div class="form-group">
+					<label asp-for="MainPhoto">Main Photo</label>
+					<input asp-for="MainPhoto" class="form-control">
+					<span asp-validation-for="MainPhoto" style="color:red"></span>
+					@if (Model.ProductImagesVms.Any(p => p.Primary))
+					{
+						<div style="width:150px; height:200px; overflow:hidden;">
+							<img class="primary-img img-fluid"
+								 src="~/Upload/Product/@Model.ProductImagesVms.FirstOrDefault(i=>i.Primary).ImgUrl"
+								 alt="Product Images" />
+						</div>
+					}
+				</div>
+			</div>
+			<div class="col-md-6">
 
-    </form>
+				<div class="form-group">
+					<label asp-for="Images">Product Images</label>
+					<input asp-for="Images" class="form-control">
+					<span asp-validation-for="Images" style="color:red"></span>
+					@if (Model.ProductImagesVms.FirstOrDefault(p => !(p.Primary)) != null)
+					{
+						<div class="row">
+							@foreach (ProductImagesVm vm in Model.ProductImagesVms)
+							{
+								if (!vm.Primary)
+								{
+									<div class="col-3 mb-2 position-relative">
+										<input type="hidden" value="@vm.ImgUrl" name="ImageUrls" />
+										<img class="primary-img img-fluid rounded"
+											 src="~/Upload/Product/@vm.ImgUrl"
+											 alt="Product Image" />
+										<button class="btn btn-danger position-absolute custom-btn" style="right:10px">X</button>
+									</div>
+								}
+							}
+						</div>
+					}
+				</div>
+			</div>
+		</div>
+
+		<button type="submit" class="btn btn-primary">Submit</button>
+
+	</form>
 
 </div>
+
+<script>
+	var btn = document.querySelectorAll(".custom-btn")
+	btn.forEach(b=> {
+		b.addEventListener("click", function (e) {
+			e.preventDefault();
+			b.parentElement.remove()
+		})
+	})
+
+</script>

@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Identity.Client;
-using ProniaWebApp.Areas.Manage.ViewModels.Tag;
-using ProniaWebApp.DAL;
-using ProniaWebApp.Models;
-
+﻿
 namespace ProniaWebApp.Areas.Manage.Controllers
 {
     [Area("Manage")]

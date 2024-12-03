@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ProniaWebApp.Areas.Manage.ViewModels.Category;
-using ProniaWebApp.DAL;
-using ProniaWebApp.Models;
-
-namespace ProniaWebApp.Areas.Manage.Controllers
+﻿namespace ProniaWebApp.Areas.Manage.Controllers
 {
     [Area("Manage")]
     public class CategoryController : Controller
@@ -106,7 +100,7 @@ namespace ProniaWebApp.Areas.Manage.Controllers
 
         public async Task<ActionResult> Delete(int? id)
         {
-            if(id == null || _db.Categories.Any(c=> c.Id == id))
+            if(id == null || !(_db.Categories.Any(c=> c.Id == id)))
             {
                 return BadRequest();
             }
@@ -117,7 +111,6 @@ namespace ProniaWebApp.Areas.Manage.Controllers
             await _db.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
-
         }
     }
 }

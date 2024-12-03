@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Manage\ViewModels\Slider\" />
+    <Folder Include="wwwroot\Upload\Slider\" />
   </ItemGroup>
 
 </Project>

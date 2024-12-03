@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-namespace ProniaWebApp.Areas.Manage.Controllers
+﻿namespace ProniaWebApp.Areas.Manage.Controllers
 {
     [Area("Manage")]
     public class DashboardController : Controller

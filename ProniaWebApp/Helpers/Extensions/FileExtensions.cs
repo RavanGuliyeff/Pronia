@@ -1,7 +1,7 @@
 ﻿namespace ProniaWebApp.Helpers.Extensions
 {
-	public static class FileExtensions
-	{
+    public static class FileExtensions
+    {
         public static string Upload(this IFormFile file, string rootPath, string folderName)
         {
             string fileName = file.FileName;

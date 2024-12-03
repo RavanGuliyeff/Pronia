@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ProniaWebApp.Models;
-
+﻿
 namespace ProniaWebApp.DAL
 {
 	public class AppDbContext:DbContext

@@ -32,6 +32,7 @@
 							<th>Category</th>
 							<th>Tag</th>
 							<th>SKU</th>
+							<th>Image</th>
 							<th>Edit</th>
 						</tr>
 					</thead>
@@ -64,6 +65,17 @@
 									}
 								</th>
 								<th>@item.SKU</th>
+								<th>
+									<div style="width:150px; height:200px; overflow:hidden;">
+
+									@if (item.ProductImages.Any(pi => pi.Primary))
+									{
+											<img class="primary-img img-fluid"
+											 src="~/Upload/Product/@item.ProductImages.FirstOrDefault(pi=>pi.Primary).ImgUrl"
+											 alt="Product Images" />
+									}
+									</div>
+								</th>
 								<th>
 									<a class="btn btn-secondary" asp-action="Update" asp-route-id=@item.Id>Update</a>
 									<a class="btn btn-danger" asp-action="Delete" asp-route-id=@item.Id>Delete</a>

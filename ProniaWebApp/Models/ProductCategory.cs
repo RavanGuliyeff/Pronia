@@ -1,5 +1,4 @@
-﻿using ProniaWebApp.Models.Base;
-
+﻿
 namespace ProniaWebApp.Models
 {
     public class ProductCategory:BaseEntity
