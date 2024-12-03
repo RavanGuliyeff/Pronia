@@ -1,4 +1,6 @@
 ﻿
+using ProniaWebApp.Models;
+
 namespace ProniaWebApp.Areas.Manage.Controllers
 {
 	[Area("Manage")]
@@ -154,8 +156,6 @@ namespace ProniaWebApp.Areas.Manage.Controllers
 			return RedirectToAction(nameof(Index));
 		}
 
-
-
 		public async Task<IActionResult> Update(int? id)
 		{
 			ViewBag.Categories = await _db.Categories.ToListAsync();
@@ -298,20 +298,46 @@ namespace ProniaWebApp.Areas.Manage.Controllers
 					ModelState.AddModelError("Image", "Image size must be under of 2gb");
 					return View();
 				}
+				ProductImage oldImage = oldProduct.ProductImages.FirstOrDefault(p => p.Primary);
 
 
-				FileExtensions.Delete(_env.WebRootPath, "Upload/Product", oldProduct.ProductImages.FirstOrDefault(p => p.Primary).ImgUrl);
+                FileExtensions.Delete(_env.WebRootPath, "Upload/Product", oldImage.ImgUrl);
+				_db.ProductImages.Remove(oldImage);
 
-
-				_db.ProductImages.Add(new()
+				ProductImage productImage = new ProductImage()
 				{
 					Primary = true,
 					ImgUrl = vm.MainPhoto.Upload(_env.WebRootPath, "Upload/Product"),
+					ProductId = oldProduct.Id,
 					Product = oldProduct
-				});
+				};
+				await _db.ProductImages.AddAsync(productImage);
 
 			}
 
+			if(vm.ImageUrls != null)
+			{
+				
+				foreach (ProductImage productImage in oldProduct.ProductImages.Where(pi=> !pi.Primary))
+				{
+
+                    if (!vm.ImageUrls.Any(iu=> iu == productImage.ImgUrl))
+					{
+                        FileExtensions.Delete(_env.WebRootPath, "Upload/Product", productImage.ImgUrl);
+                        _db.ProductImages.Remove(productImage);
+					}
+				}
+
+
+			}
+			else
+			{
+				foreach (ProductImage productImage in oldProduct.ProductImages.Where(pi => !pi.Primary))
+				{
+                    FileExtensions.Delete(_env.WebRootPath, "Upload/Product", productImage.ImgUrl);
+					_db.ProductImages.Remove(productImage);
+                }
+            }
 			oldProduct.Name = vm.Name;
 			oldProduct.Description = vm.Description;
 			oldProduct.Price = vm.Price;
@@ -321,8 +347,6 @@ namespace ProniaWebApp.Areas.Manage.Controllers
 			return RedirectToAction(nameof(Index));
 		}
 
-
-
 		public async Task<IActionResult> Delete(int? id)
 		{
 			if (id == null || !(_db.Products.Any(p => p.Id == id)))
@@ -330,12 +354,16 @@ namespace ProniaWebApp.Areas.Manage.Controllers
 				return BadRequest();
 			}
 
-			Product? product = await _db.Products.FirstOrDefaultAsync(p => p.Id == id);
+			Product? product = await _db.Products
+				.Include(p=> p.ProductImages)
+				.FirstOrDefaultAsync(p => p.Id == id);
+
+			List<ProductImage> productImages = product.ProductImages;
+			_db.ProductImages.RemoveRange(productImages);
 			_db.Products.Remove(product);
 			await _db.SaveChangesAsync();
 
 			return RedirectToAction(nameof(Index));
 		}
-
 	}
 }

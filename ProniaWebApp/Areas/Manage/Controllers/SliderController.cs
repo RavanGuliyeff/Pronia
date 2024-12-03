@@ -153,7 +153,7 @@ namespace ProniaWebApp.Areas.Manage.Controllers
 			{
 				return NotFound();
 			}
-
+            FileExtensions.Delete(_env.WebRootPath, "Upload/Slider", slider.ImgUrl);
             _db.Sliders.Remove(slider);
             await _db.SaveChangesAsync();
 
