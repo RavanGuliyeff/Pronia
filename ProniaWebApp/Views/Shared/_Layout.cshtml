@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="zxx">
 <head>
     <meta charset="UTF-8" />
@@ -100,7 +101,7 @@
                                     <a href="tel://+00-123-456-789">+00 123 456 789</a>
                                 </div>
 
-                                <a href="index.html" class="header-logo">
+                                <a asp-controller="Home" asp-action="Index" class="header-logo">
                                     <img src="~/assets/images/logo/dark.png" alt="Header Logo" />
                                 </a>
 
@@ -126,10 +127,17 @@
                                             <ul class="dropdown-menu"
                                                 aria-labelledby="settingButton">
                                                 <li>
-                                                    <a class="dropdown-item" href="my-account.html">My account</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" asp-controller="Account" asp-action="LoginRegister">Login | Register</a>
+                                                    @if (User.Identity.IsAuthenticated)
+                                                    {
+                                                    <a class="dropdown-item" asp-controller="Account" asp-action="MyAccount">My Account</a>
+                                                        <a class="dropdown-item">@User.Identity.Name</a>
+                                                    <a class="dropdown-item" asp-controller="Account" asp-action="Logout">Log out</a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a class="dropdown-item" asp-controller="Account" asp-action="Login">Login</a>
+                                                        <a class="dropdown-item" asp-controller="Account" asp-action="Register">Register</a>
+                                                    }
                                                 </li>
                                             </ul>
                                         </li>
@@ -165,10 +173,10 @@
                                 <nav class="main-nav">
                                     <ul>
                                         <li class="drop-holder">
-                                            <a href="index.html">Home</a>
+                                            <a asp-controller="Home" asp-action="Index">Home</a>
                                             <ul class="drop-menu">
                                                 <li>
-                                                    <a href="index.html">Home One</a>
+                                                    <a asp-controller="Home" asp-action="Index">Home One</a>
                                                 </li>
                                                 <li>
                                                     <a href="index-2.html">Home Two</a>
@@ -228,10 +236,17 @@
                                                     <span class="title">Product Related</span>
                                                     <ul>
                                                         <li>
-                                                            <a href="my-account.html">My Account</a>
-                                                        </li>
-                                                        <li>
-                                                            <a asp-controller="Account" asp-action="LoginRegister">Login | Register</a>
+                                                            @if (User.Identity.IsAuthenticated)
+                                                            {
+                                                                <a asp-controller="Account" asp-action="MyAccount">My Account</a>
+                                                                <a>@User.Identity.Name</a>
+                                                                <a asp-controller="Account" asp-action="Logout">Log out</a>
+                                                            }
+                                                            else
+                                                            {
+                                                            <a asp-controller="Account" asp-action="Login">Login</a>
+                                                            <a asp-controller="Account" asp-action="Register">Register</a>  
+                                                            }
                                                         </li>
                                                         <li>
                                                             <a href="cart.html">Shopping Cart</a>
@@ -289,7 +304,7 @@
                     <div class="header-nav position-relative">
                         <div class="row align-items-center">
                             <div class="col-lg-3 col-6">
-                                <a href="index.html" class="header-logo">
+                                <a asp-controller="Home" asp-action="Index" class="header-logo">
                                     <img src="~/assets/images/logo/dark.png" alt="Header Logo" />
                                 </a>
                             </div>
@@ -298,10 +313,10 @@
                                     <nav class="main-nav">
                                         <ul>
                                             <li class="drop-holder">
-                                                <a href="index.html">Home</a>
+                                                <a asp-controller="Home" asp-action="Index">Home</a>
                                                 <ul class="drop-menu">
                                                     <li>
-                                                        <a href="index.html">Home One</a>
+                                                        <a asp-controller="Home" asp-action="Index">Home One</a>
                                                     </li>
                                                     <li>
                                                         <a href="index-2.html">Home Two</a>
@@ -361,10 +376,17 @@
                                                         <span class="title">Product Related</span>
                                                         <ul>
                                                             <li>
-                                                                <a href="my-account.html">My Account</a>
-                                                            </li>
-                                                            <li>
-                                                                <a asp-controller="Account" asp-action="LoginRegister">Login | Register</a>
+                                                                @if (User.Identity.IsAuthenticated)
+                                                                {
+                                                                    <a asp-controller="Account" asp-action="MyAccount">My Account</a>
+                                                                    <a>@User.Identity.Name</a>
+                                                                    <a asp-controller="Account" asp-action="Logout">Log out</a>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <a asp-controller="Account" asp-action="Login">Login</a>
+                                                                    <a asp-controller="Account" asp-action="Register">Register</a>
+                                                                }
                                                             </li>
                                                             <li>
                                                                 <a href="cart.html">Shopping Cart</a>
@@ -437,10 +459,17 @@
                                             <ul class="dropdown-menu"
                                                 aria-labelledby="stickysettingButton">
                                                 <li>
-                                                    <a class="dropdown-item" href="my-account.html">My account</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" asp-controller="Account" asp-action="LoginRegister">Login | Register</a>
+                                                    @if (User.Identity.IsAuthenticated)
+                                                    {
+                                                        <a class="dropdown-item" asp-controller="Account" asp-action="MyAccount">My Account</a>
+                                                        <a class="dropdown-item">@User.Identity.Name</a>
+                                                        <a class="dropdown-item" asp-controller="Account" asp-action="Logout">Log out</a>
+                                                    }
+                                                    else
+                                                    {
+                                                        <a class="dropdown-item" asp-controller="Account" asp-action="Login">Login</a>
+                                                        <a class="dropdown-item" asp-controller="Account" asp-action="Register">Register</a>
+                                                    }
                                                 </li>
                                             </ul>
                                         </li>
@@ -519,11 +548,19 @@
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-end"
                                         aria-labelledby="settingButtonTwo">
+
                                         <li>
-                                            <a class="dropdown-item" href="my-account.html">My account</a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" asp-controller="Account" asp-action="LoginRegister">Login | Register</a>
+                                            @if (User.Identity.IsAuthenticated)
+                                            {
+                                                <a class="dropdown-item" asp-controller="Account" asp-action="MyAccount">My Account</a>
+                                                <a class="dropdown-item">@User.Identity.Name</a>
+                                                <a class="dropdown-item" asp-controller="Account" asp-action="Logout">Log out</a>
+                                            }
+                                            else
+                                            {
+                                                <a class="dropdown-item" asp-controller="Account" asp-action="Login">Login</a>
+                                                <a class="dropdown-item" asp-controller="Account" asp-action="Register">Register</a>
+                                            }
                                         </li>
                                     </ul>
                                 </li>
@@ -546,7 +583,7 @@
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
-                                                <a href="index.html">
+                                                <a asp-controller="Home" asp-action="Index">
                                                     <span class="mm-text">Home One</span>
                                                 </a>
                                             </li>
@@ -654,14 +691,30 @@
                                                 </a>
                                                 <ul class="sub-menu">
                                                     <li>
-                                                        <a href="my-account.html">
-                                                            <span class="mm-text">My Account</span>
-                                                        </a>
                                                     </li>
                                                     <li>
-                                                        <a asp-controller="Account" asp-action="LoginRegister">
-                                                            <span class="mm-text">Login | Register</span>
+                                                        @if (User.Identity.IsAuthenticated)
+                                                        {
+                                                            <a asp-controller="Account" asp-action="MyAccount">
+                                                                <span class="mm-text">My Account</span>
+                                                            </a>
+                                                            <a>
+                                                                <span class="mm-text">@User.Identity.Name</span>
+                                                            </a>
+                                                            <a asp-controller="Account" asp-action="Logout">
+                                                                <span class="mm-text">Log out</span>
+                                                            </a>
+                                                        }
+                                                        else
+                                                        {
+                                                            
+                                                        <a asp-controller="Account" asp-action="Login">
+                                                            <span class="mm-text">Login</span>
                                                         </a>
+                                                        <a asp-controller="Account" asp-action="Register">
+                                                            <span class="mm-text">Register</span>
+                                                        </a>
+                                                        }
                                                     </li>
                                                     <li>
                                                         <a href="cart.html">
@@ -909,7 +962,7 @@
                         <div class="col-lg-3">
                             <div class="footer-widget-item">
                                 <div class="footer-widget-logo">
-                                    <a href="index.html">
+                                    <a asp-controller="Home" asp-action="Index">
                                         <img src="~/assets/images/logo/dark.png" alt="Logo" />
                                     </a>
                                 </div>
