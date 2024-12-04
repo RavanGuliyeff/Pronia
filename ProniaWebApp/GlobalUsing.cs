@@ -9,3 +9,4 @@ global using ProniaWebApp.Models.Base;
 global using ProniaWebApp.ViewModels;
 global using ProniaWebApp.Areas.Manage.ViewModels.Slider;
 global using ProniaWebApp.Helpers.Extensions;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;

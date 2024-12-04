@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\views\\account\\loginregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:views\\account\\loginregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Areas\\Manage\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAADwBAAAAAAAAAAAMwEgBAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T17:50:51.484Z",
+              "Title": "LoginRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Views\\Account\\LoginRegister.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\LoginRegister.cshtml",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Views\\Account\\LoginRegister.cshtml",
+              "RelativeToolTip": "Views\\Account\\LoginRegister.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAYwGIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T18:41:03.243Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:38:46.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterVm.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\ViewModels\\RegisterVm.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterVm.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\ViewModels\\RegisterVm.cs",
+              "RelativeToolTip": "ViewModels\\RegisterVm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:38:40.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginVm.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\ViewModels\\LoginVm.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginVm.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\ViewModels\\LoginVm.cs",
+              "RelativeToolTip": "ViewModels\\LoginVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:38:35.305Z"
             }
           ]
         }

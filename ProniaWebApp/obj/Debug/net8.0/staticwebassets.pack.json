@@ -7421,16 +7421,24 @@
       "PackagePath": "staticwebassets\\Manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\27b3c7f2-f295-40a9-b03d-9f01721bdf4ehome-slider-1-ai.png",
+      "PackagePath": "staticwebassets\\Upload\\Product\\27b3c7f2-f295-40a9-b03d-9f01721bdf4ehome-slider-1-ai.png"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\2b3b373a-7e42-45d7-8f4b-93778b6294c4home-4-slider-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Product\\2b3b373a-7e42-45d7-8f4b-93778b6294c4home-4-slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\4442f7b0-7e04-402d-961b-dfeaf075d292home-slider-2-ai.png",
+      "PackagePath": "staticwebassets\\Upload\\Product\\4442f7b0-7e04-402d-961b-dfeaf075d292home-slider-2-ai.png"
+    },
+    {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\56fadc20-586c-4d20-9511-b9e2b7f9556878b21749c836ac1e656bc41010d56d1b.jpg",
       "PackagePath": "staticwebassets\\Upload\\Product\\56fadc20-586c-4d20-9511-b9e2b7f9556878b21749c836ac1e656bc41010d56d1b.jpg"
     },
     {
-      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\83bbd269-1343-44b1-ba7c-48f5982a2a64FNGlx0IXsAQ6Tra.jpeg",
-      "PackagePath": "staticwebassets\\Upload\\Product\\83bbd269-1343-44b1-ba7c-48f5982a2a64FNGlx0IXsAQ6Tra.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\a98813d6-e9de-42c5-8896-85f4ee5d5df58133737b8f2bc8bc270fce7b7d6ab6dc.jpg",
-      "PackagePath": "staticwebassets\\Upload\\Product\\a98813d6-e9de-42c5-8896-85f4ee5d5df58133737b8f2bc8bc270fce7b7d6ab6dc.jpg"
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\a84872da-d26a-4f4b-8d16-c6760bf3b9bahome-4-slider-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Product\\a84872da-d26a-4f4b-8d16-c6760bf3b9bahome-4-slider-1.jpg"
     },
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\c74665cd-5de0-444d-abd4-ef51b45e5ed4530384.jpg",
@@ -7439,6 +7447,18 @@
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\d1d4fe88-176f-425e-a117-c6792dfdc5baFNGlx0IXsAQ6Tra.jpeg",
       "PackagePath": "staticwebassets\\Upload\\Product\\d1d4fe88-176f-425e-a117-c6792dfdc5baFNGlx0IXsAQ6Tra.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\dcc6c2a8-cdc4-4777-a0bc-eb6b79913d70home-slider-1-ai.png",
+      "PackagePath": "staticwebassets\\Upload\\Product\\dcc6c2a8-cdc4-4777-a0bc-eb6b79913d70home-slider-1-ai.png"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Slider\\210c8e3c-f1d4-4bb2-a5d5-0ac940285ed6wp2879363.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slider\\210c8e3c-f1d4-4bb2-a5d5-0ac940285ed6wp2879363.jpg"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Slider\\570fcc8c-5a35-4a0b-8a28-0fa32182182ewallpaperflare.com_wallpaper.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Slider\\570fcc8c-5a35-4a0b-8a28-0fa32182182ewallpaperflare.com_wallpaper.jpg"
     },
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Slider\\e87e7a84-b331-4dd4-beff-97ba96724044wallpaperflare.com_wallpaper.jpg",
