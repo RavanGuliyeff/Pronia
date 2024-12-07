@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nO1j8LZvlQgJDOSZgDNWKyppCKizo9aQhBIeOj/XZkY=",
+  "Hash": "7SRXcu9HilocdbprYv2I0f5DqYdka/HR1h3BYKCMxjE=",
   "Source": "ProniaWebApp",
   "BasePath": "_content/ProniaWebApp",
   "Mode": "Default",
@@ -39252,12 +39252,12 @@
       "OriginalItemSpec": "wwwroot\\Manage\\vendor\\jquery-easing\\jquery.easing.min.js"
     },
     {
-      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\27b3c7f2-f295-40a9-b03d-9f01721bdf4ehome-slider-1-ai.png",
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\4843a245-a085-4cc0-baae-eaea7ad73dc98133737b8f2bc8bc270fce7b7d6ab6dc.jpg",
       "SourceId": "ProniaWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
       "BasePath": "_content/ProniaWebApp",
-      "RelativePath": "Upload/Product/27b3c7f2-f295-40a9-b03d-9f01721bdf4ehome-slider-1-ai.png",
+      "RelativePath": "Upload/Product/4843a245-a085-4cc0-baae-eaea7ad73dc98133737b8f2bc8bc270fce7b7d6ab6dc.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39268,15 +39268,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\Product\\27b3c7f2-f295-40a9-b03d-9f01721bdf4ehome-slider-1-ai.png"
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\4843a245-a085-4cc0-baae-eaea7ad73dc98133737b8f2bc8bc270fce7b7d6ab6dc.jpg"
     },
     {
-      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\2b3b373a-7e42-45d7-8f4b-93778b6294c4home-4-slider-2.jpg",
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\86318f94-2a55-45a7-b743-54bb9ae60f18530384.jpg",
       "SourceId": "ProniaWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
       "BasePath": "_content/ProniaWebApp",
-      "RelativePath": "Upload/Product/2b3b373a-7e42-45d7-8f4b-93778b6294c4home-4-slider-2.jpg",
+      "RelativePath": "Upload/Product/86318f94-2a55-45a7-b743-54bb9ae60f18530384.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39287,15 +39287,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\Product\\2b3b373a-7e42-45d7-8f4b-93778b6294c4home-4-slider-2.jpg"
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\86318f94-2a55-45a7-b743-54bb9ae60f18530384.jpg"
     },
     {
-      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\4442f7b0-7e04-402d-961b-dfeaf075d292home-slider-2-ai.png",
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\a5333418-5cc4-47f4-bec8-c6f417fcd18278b21749c836ac1e656bc41010d56d1b.jpg",
       "SourceId": "ProniaWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
       "BasePath": "_content/ProniaWebApp",
-      "RelativePath": "Upload/Product/4442f7b0-7e04-402d-961b-dfeaf075d292home-slider-2-ai.png",
+      "RelativePath": "Upload/Product/a5333418-5cc4-47f4-bec8-c6f417fcd18278b21749c836ac1e656bc41010d56d1b.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39306,15 +39306,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\Product\\4442f7b0-7e04-402d-961b-dfeaf075d292home-slider-2-ai.png"
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\a5333418-5cc4-47f4-bec8-c6f417fcd18278b21749c836ac1e656bc41010d56d1b.jpg"
     },
     {
-      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\56fadc20-586c-4d20-9511-b9e2b7f9556878b21749c836ac1e656bc41010d56d1b.jpg",
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\ad1c4d52-2099-4a81-9b8e-cdfc3bdea621wp2879363.jpg",
       "SourceId": "ProniaWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
       "BasePath": "_content/ProniaWebApp",
-      "RelativePath": "Upload/Product/56fadc20-586c-4d20-9511-b9e2b7f9556878b21749c836ac1e656bc41010d56d1b.jpg",
+      "RelativePath": "Upload/Product/ad1c4d52-2099-4a81-9b8e-cdfc3bdea621wp2879363.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39325,15 +39325,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\Product\\56fadc20-586c-4d20-9511-b9e2b7f9556878b21749c836ac1e656bc41010d56d1b.jpg"
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\ad1c4d52-2099-4a81-9b8e-cdfc3bdea621wp2879363.jpg"
     },
     {
-      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\a84872da-d26a-4f4b-8d16-c6760bf3b9bahome-4-slider-1.jpg",
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\bb99c060-8342-4871-8e43-caee80dd14c84K-Wallpaper-Gaming-88685.jpg",
       "SourceId": "ProniaWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
       "BasePath": "_content/ProniaWebApp",
-      "RelativePath": "Upload/Product/a84872da-d26a-4f4b-8d16-c6760bf3b9bahome-4-slider-1.jpg",
+      "RelativePath": "Upload/Product/bb99c060-8342-4871-8e43-caee80dd14c84K-Wallpaper-Gaming-88685.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39344,15 +39344,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\Product\\a84872da-d26a-4f4b-8d16-c6760bf3b9bahome-4-slider-1.jpg"
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\bb99c060-8342-4871-8e43-caee80dd14c84K-Wallpaper-Gaming-88685.jpg"
     },
     {
-      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\c74665cd-5de0-444d-abd4-ef51b45e5ed4530384.jpg",
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\bd41e641-d9e8-4ac4-b5a7-9667d2b02e40530384.jpg",
       "SourceId": "ProniaWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
       "BasePath": "_content/ProniaWebApp",
-      "RelativePath": "Upload/Product/c74665cd-5de0-444d-abd4-ef51b45e5ed4530384.jpg",
+      "RelativePath": "Upload/Product/bd41e641-d9e8-4ac4-b5a7-9667d2b02e40530384.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39363,15 +39363,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\Product\\c74665cd-5de0-444d-abd4-ef51b45e5ed4530384.jpg"
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\bd41e641-d9e8-4ac4-b5a7-9667d2b02e40530384.jpg"
     },
     {
-      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\d1d4fe88-176f-425e-a117-c6792dfdc5baFNGlx0IXsAQ6Tra.jpeg",
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\da0b8361-37b2-4aaa-9085-8ac5a07e41c1wp2879363.jpg",
       "SourceId": "ProniaWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
       "BasePath": "_content/ProniaWebApp",
-      "RelativePath": "Upload/Product/d1d4fe88-176f-425e-a117-c6792dfdc5baFNGlx0IXsAQ6Tra.jpeg",
+      "RelativePath": "Upload/Product/da0b8361-37b2-4aaa-9085-8ac5a07e41c1wp2879363.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39382,15 +39382,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\Product\\d1d4fe88-176f-425e-a117-c6792dfdc5baFNGlx0IXsAQ6Tra.jpeg"
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\da0b8361-37b2-4aaa-9085-8ac5a07e41c1wp2879363.jpg"
     },
     {
-      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\dcc6c2a8-cdc4-4777-a0bc-eb6b79913d70home-slider-1-ai.png",
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\f1cb48da-8e9a-4e07-8fe0-fbdcb5ac57d6wallpaperflare.com_wallpaper.jpg",
       "SourceId": "ProniaWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
       "BasePath": "_content/ProniaWebApp",
-      "RelativePath": "Upload/Product/dcc6c2a8-cdc4-4777-a0bc-eb6b79913d70home-slider-1-ai.png",
+      "RelativePath": "Upload/Product/f1cb48da-8e9a-4e07-8fe0-fbdcb5ac57d6wallpaperflare.com_wallpaper.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -39401,7 +39401,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\Product\\dcc6c2a8-cdc4-4777-a0bc-eb6b79913d70home-slider-1-ai.png"
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\f1cb48da-8e9a-4e07-8fe0-fbdcb5ac57d6wallpaperflare.com_wallpaper.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\f9112305-8a69-4dd5-8cfe-012ee40baaabimages.jpg",
+      "SourceId": "ProniaWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
+      "BasePath": "_content/ProniaWebApp",
+      "RelativePath": "Upload/Product/f9112305-8a69-4dd5-8cfe-012ee40baaabimages.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\f9112305-8a69-4dd5-8cfe-012ee40baaabimages.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\fcd79122-9601-40a7-84b3-b9734e41339bWhatsApp Image 2024-12-04 at 19.48.40_23e00acb.jpg",
+      "SourceId": "ProniaWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
+      "BasePath": "_content/ProniaWebApp",
+      "RelativePath": "Upload/Product/fcd79122-9601-40a7-84b3-b9734e41339bWhatsApp Image 2024-12-04 at 19.48.40_23e00acb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Product\\fcd79122-9601-40a7-84b3-b9734e41339bWhatsApp Image 2024-12-04 at 19.48.40_23e00acb.jpg"
     },
     {
       "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Slider\\210c8e3c-f1d4-4bb2-a5d5-0ac940285ed6wp2879363.jpg",
@@ -39440,6 +39478,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\Slider\\570fcc8c-5a35-4a0b-8a28-0fa32182182ewallpaperflare.com_wallpaper.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Slider\\b3d29ab9-abf8-4b58-8e5b-75f3d570504aWhatsApp Image 2024-12-04 at 19.48.40_23e00acb.jpg",
+      "SourceId": "ProniaWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\",
+      "BasePath": "_content/ProniaWebApp",
+      "RelativePath": "Upload/Slider/b3d29ab9-abf8-4b58-8e5b-75f3d570504aWhatsApp Image 2024-12-04 at 19.48.40_23e00acb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\Slider\\b3d29ab9-abf8-4b58-8e5b-75f3d570504aWhatsApp Image 2024-12-04 at 19.48.40_23e00acb.jpg"
     },
     {
       "Identity": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Slider\\e87e7a84-b331-4dd4-beff-97ba96724044wallpaperflare.com_wallpaper.jpg",

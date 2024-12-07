@@ -1,6 +1,3 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using ProniaWebApp.DAL;
 
 namespace ProniaWebApp
 {
@@ -28,10 +25,18 @@ namespace ProniaWebApp
 				opt.Lockout.AllowedForNewUsers = true;
 				opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
 				opt.Lockout.MaxFailedAccessAttempts = 3;
-			}).AddEntityFrameworkStores<AppDbContext>();
+
+
+			}).AddEntityFrameworkStores<AppDbContext>()
+			.AddDefaultTokenProviders();
+
+			builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+			builder.Services.AddTransient<IMailService, MailService>();
 
 			var app = builder.Build();
+			
 
+			
 			app.MapControllerRoute(
 				name: "areas",
 				pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"

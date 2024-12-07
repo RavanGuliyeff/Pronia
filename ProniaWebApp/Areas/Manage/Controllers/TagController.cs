@@ -1,8 +1,7 @@
 ﻿
 namespace ProniaWebApp.Areas.Manage.Controllers
 {
-    [Area("Manage")]
-    public class TagController : Controller
+    public class TagController : ManageBaseController
     {
         AppDbContext _db;
 

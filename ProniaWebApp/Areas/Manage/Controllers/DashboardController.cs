@@ -1,7 +1,10 @@
-﻿namespace ProniaWebApp.Areas.Manage.Controllers
+﻿using Microsoft.AspNetCore.Authorization;
+
+namespace ProniaWebApp.Areas.Manage.Controllers
 {
     [Area("Manage")]
-    public class DashboardController : Controller
+    [Authorize]
+    public class DashboardController : ManageBaseController
     {
         public IActionResult Index()
         {

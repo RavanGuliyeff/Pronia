@@ -3,9 +3,8 @@ using ProniaWebApp.Models;
 
 namespace ProniaWebApp.Areas.Manage.Controllers
 {
-	[Area("Manage")]
-	public class ProductController : Controller
-	{
+	public class ProductController : ManageBaseController
+    {
 		AppDbContext _db;
 		private readonly IWebHostEnvironment _env;
 

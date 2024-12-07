@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-
+﻿
 namespace ProniaWebApp.Controllers.Account
 {
     public class AccountController : Controller
@@ -8,13 +6,21 @@ namespace ProniaWebApp.Controllers.Account
         AppDbContext _db;
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+		private readonly IMailService _mailService;
 
-        public AccountController(AppDbContext db, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+		public AccountController(AppDbContext db
+            , UserManager<AppUser> userManager
+            , SignInManager<AppUser> signInManager
+            , RoleManager<IdentityRole> roleManager
+            , IMailService mailService)
         {
             _db = db;
             _userManager = userManager;
             _signInManager = signInManager;
-        }
+            _roleManager = roleManager;
+			_mailService = mailService;
+		}
 
         public IActionResult Register()
         {
@@ -53,6 +59,9 @@ namespace ProniaWebApp.Controllers.Account
                 }
                 return View();
             }
+
+            await _userManager.AddToRoleAsync(user, UserRoles.Member.ToString());
+
             if (vm.LogIn)
             {
                 await _signInManager.SignInAsync(user, true);
@@ -70,7 +79,7 @@ namespace ProniaWebApp.Controllers.Account
 
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginVm vm)
+        public async Task<IActionResult> Login(LoginVm vm, string? ReturnUrl)
         {
             if (!ModelState.IsValid)
             {
@@ -102,6 +111,12 @@ namespace ProniaWebApp.Controllers.Account
 
             await _signInManager.SignInAsync(user, vm.RememberMe);
 
+
+            if(ReturnUrl != null)
+            {
+                return Redirect(ReturnUrl);
+            }
+
             return RedirectToAction("Index", "Home");
         }
 
@@ -110,7 +125,115 @@ namespace ProniaWebApp.Controllers.Account
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
-    }
 
 
+
+        public async Task<IActionResult> CreateRoles()
+        {
+            foreach(var role in Enum.GetValues(typeof(UserRoles)))
+            {
+                await _roleManager.CreateAsync(new IdentityRole()
+                {
+                    Name = role.ToString()
+                });
+            }
+
+            return RedirectToAction(nameof(Index), "Home");
+        }
+
+
+
+        public async Task<IActionResult> ForgetPassword()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> ForgetPassword(ForgetPasswordVm vm)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(vm);
+            }
+
+            AppUser user = await _userManager.FindByEmailAsync(vm.Email);
+
+            if (user == null)
+            {
+                ModelState.AddModelError("", "User not founded");
+                return View();
+            }
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+
+            object userStat = new
+            {
+                userid = user.Id,
+                token = token
+            };
+
+            var link = Url.Action("ResetPassword", "Account", userStat, HttpContext.Request.Scheme);
+
+            MailRequest mailRequest = new MailRequest()
+            {
+                Subject = "Reset Password",
+                Body = $"<a href='{link}'>Click for reset your password.</a>",
+                ToEmail = vm.Email
+            };
+
+            await _mailService.SendEmailAsync(mailRequest);
+
+            return RedirectToAction(nameof(Login));
+        }
+
+
+        public async Task<IActionResult> ResetPassword(string userId, string token)
+        {
+            if(userId == null)
+            {
+                return BadRequest();
+            }
+
+			ResetPasswordVm resetPasswordVm = new ResetPasswordVm()
+			{
+				UserId = userId,
+                Token = token
+			};
+
+			return View(resetPasswordVm);
+        }
+
+        [HttpPost]
+		public async Task<IActionResult> ResetPassword(ResetPasswordVm vm)
+		{
+            if (!ModelState.IsValid)
+            {
+                return View(vm);
+            }
+
+            var user = await _userManager.FindByIdAsync(vm.UserId);
+
+            if(user == null)
+            {
+                return BadRequest();
+            }
+
+
+            var result = await _userManager.ResetPasswordAsync(user, vm.Token, vm.Password);
+
+            if (!result.Succeeded)
+            {
+                foreach(var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View(vm);
+            }
+
+			return RedirectToAction(nameof(Login));
+		}
+
+	}
 }

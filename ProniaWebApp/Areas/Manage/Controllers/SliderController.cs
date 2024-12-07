@@ -1,8 +1,7 @@
 ﻿
 namespace ProniaWebApp.Areas.Manage.Controllers
 {
-    [Area("Manage")]
-    public class SliderController : Controller
+    public class SliderController : ManageBaseController
     {
         AppDbContext _db;
         private readonly IWebHostEnvironment _env;
