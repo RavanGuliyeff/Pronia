@@ -7,16 +7,44 @@
       "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:controllers\\account\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:areas\\manage\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\viewmodels\\forgetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:viewmodels\\forgetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:services\\mailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\abstractions\\emailservice\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\helpers\\email\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:helpers\\email\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0583D20-3302-4B2C-84DF-003AD5E3B095}|ProniaWebApp.csproj|c:\\users\\revan\\desktop\\development\\codeacademy\\tasks\\pronia\\proniawebapp\\helpers\\email\\mailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,46 +70,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MailService.cs",
-              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Services\\MailService.cs",
-              "RelativeDocumentMoniker": "Services\\MailService.cs",
-              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Services\\MailService.cs",
-              "RelativeToolTip": "Services\\MailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "DAL\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:29:42.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GlobalUsing.cs",
-              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\GlobalUsing.cs",
-              "RelativeDocumentMoniker": "GlobalUsing.cs",
-              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\GlobalUsing.cs",
-              "RelativeToolTip": "GlobalUsing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:26:41.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IMailService.cs",
-              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Abstractions\\EmailService\\IMailService.cs",
-              "RelativeDocumentMoniker": "Abstractions\\EmailService\\IMailService.cs",
-              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Abstractions\\EmailService\\IMailService.cs",
-              "RelativeToolTip": "Abstractions\\EmailService\\IMailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:26:18.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T04:30:56.009Z"
             },
             {
               "$type": "Document",
@@ -95,36 +92,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:19:23.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MailSettings.cs",
-              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Helpers\\Email\\MailSettings.cs",
-              "RelativeDocumentMoniker": "Helpers\\Email\\MailSettings.cs",
-              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Helpers\\Email\\MailSettings.cs",
-              "RelativeToolTip": "Helpers\\Email\\MailSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T13:16:54.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-06T13:08:14.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T13:19:23.441Z"
             },
             {
               "$type": "Document",
@@ -134,7 +104,7 @@
               "RelativeDocumentMoniker": "Controllers\\Account\\AccountController.cs",
               "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Controllers\\Account\\AccountController.cs",
               "RelativeToolTip": "Controllers\\Account\\AccountController.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAIwLgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T11:40:47.974Z",
               "EditorCaption": ""
@@ -142,6 +112,126 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "MailService.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Services\\MailService.cs",
+              "RelativeDocumentMoniker": "Services\\MailService.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Services\\MailService.cs",
+              "RelativeToolTip": "Services\\MailService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:29:42.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-06T13:08:14.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginVm.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\ViewModels\\LoginVm.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginVm.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\ViewModels\\LoginVm.cs",
+              "RelativeToolTip": "ViewModels\\LoginVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T10:32:59.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Areas\\Manage\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Areas\\Manage\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\Manage\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T09:18:56.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\Manage\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\Manage\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T09:25:52.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForgetPasswordVm.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\ViewModels\\ForgetPasswordVm.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ForgetPasswordVm.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\ViewModels\\ForgetPasswordVm.cs",
+              "RelativeToolTip": "ViewModels\\ForgetPasswordVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T10:47:48.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T12:10:49.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Helpers\\Email\\MailSettings.cs",
+              "RelativeDocumentMoniker": "Helpers\\Email\\MailSettings.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Helpers\\Email\\MailSettings.cs",
+              "RelativeToolTip": "Helpers\\Email\\MailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:16:54.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IMailService.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Abstractions\\EmailService\\IMailService.cs",
+              "RelativeDocumentMoniker": "Abstractions\\EmailService\\IMailService.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Abstractions\\EmailService\\IMailService.cs",
+              "RelativeToolTip": "Abstractions\\EmailService\\IMailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:26:18.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "GlobalUsing.cs",
+              "ToolTip": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\GlobalUsing.cs",
+              "RelativeToolTip": "GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T13:26:41.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "MailRequest.cs",
               "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\Helpers\\Email\\MailRequest.cs",
               "RelativeDocumentMoniker": "Helpers\\Email\\MailRequest.cs",
@@ -149,12 +239,11 @@
               "RelativeToolTip": "Helpers\\Email\\MailRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T12:49:52.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T12:49:52.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ResetPasswordVm.cs",
               "DocumentMoniker": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\ViewModels\\ResetPasswordVm.cs",
               "RelativeDocumentMoniker": "ViewModels\\ResetPasswordVm.cs",
@@ -162,8 +251,7 @@
               "RelativeToolTip": "ViewModels\\ResetPasswordVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T11:49:05.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T11:49:05.047Z"
             }
           ]
         }
