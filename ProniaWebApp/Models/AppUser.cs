@@ -6,6 +6,6 @@ namespace ProniaWebApp.Models
     {
         public string Name { get; set; }
         public string? Surname { get; set; }
-        //public bool RememberMe { get; set; }
+        public string? ConfirmationKey { get; set; }
     }
 }

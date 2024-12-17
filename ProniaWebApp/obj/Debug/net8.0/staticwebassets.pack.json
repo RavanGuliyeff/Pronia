@@ -7421,8 +7421,20 @@
       "PackagePath": "staticwebassets\\Manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\2f75681b-9514-4c6b-be3b-5188b63de4001-2-270x300.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Product\\2f75681b-9514-4c6b-be3b-5188b63de4001-2-270x300.jpg"
+    },
+    {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\4843a245-a085-4cc0-baae-eaea7ad73dc98133737b8f2bc8bc270fce7b7d6ab6dc.jpg",
       "PackagePath": "staticwebassets\\Upload\\Product\\4843a245-a085-4cc0-baae-eaea7ad73dc98133737b8f2bc8bc270fce7b7d6ab6dc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\5574610f-7281-40bd-a817-b94944abceba1-1-570x633.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Product\\5574610f-7281-40bd-a817-b94944abceba1-1-570x633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\8115596a-61c1-45a1-bdc7-ac49772311611-3-370x300.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Product\\8115596a-61c1-45a1-bdc7-ac49772311611-3-370x300.jpg"
     },
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\86318f94-2a55-45a7-b743-54bb9ae60f18530384.jpg",
@@ -7447,6 +7459,10 @@
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\da0b8361-37b2-4aaa-9085-8ac5a07e41c1wp2879363.jpg",
       "PackagePath": "staticwebassets\\Upload\\Product\\da0b8361-37b2-4aaa-9085-8ac5a07e41c1wp2879363.jpg"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\ecd19761-7825-4704-96db-bfbcb5f029021-2-524x617.png",
+      "PackagePath": "staticwebassets\\Upload\\Product\\ecd19761-7825-4704-96db-bfbcb5f029021-2-524x617.png"
     },
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\f1cb48da-8e9a-4e07-8fe0-fbdcb5ac57d6wallpaperflare.com_wallpaper.jpg",

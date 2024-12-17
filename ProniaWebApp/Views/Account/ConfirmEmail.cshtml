@@ -1,0 +1,19 @@
+﻿@using ProniaWebApp.ViewModels;
+@model ConfirmEmailVm
+
+<h2>Confirm Your Email</h2>
+
+<p>Please enter the confirmation code sent to your email.</p>
+
+<form method="post">
+
+    <div class="form-group">
+        <label asp-for="Key">Confirmation Code</label>
+        <input asp-for="Key" class="form-control" placeholder="Enter confirmation code" required />
+        <span asp-validation-for="Key" style="color: red"></span>
+
+    </div>
+    
+
+    <button type="submit" class="btn btn-primary mt-3">Confirm</button>
+</form>

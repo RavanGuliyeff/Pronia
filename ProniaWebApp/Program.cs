@@ -16,6 +16,8 @@ namespace ProniaWebApp
 			{
 				opt.User.RequireUniqueEmail = true;
 
+				opt.SignIn.RequireConfirmedEmail = true;
+
 				opt.Password.RequiredLength = 8;
 				opt.Password.RequireUppercase = false;
 				opt.Password.RequireLowercase = false;
@@ -32,6 +34,7 @@ namespace ProniaWebApp
 
 			builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 			builder.Services.AddTransient<IMailService, MailService>();
+			builder.Services.AddScoped<LayoutService>();
 
 			var app = builder.Build();
 			

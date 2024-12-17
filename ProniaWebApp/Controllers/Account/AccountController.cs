@@ -62,17 +62,68 @@ namespace ProniaWebApp.Controllers.Account
 
             await _userManager.AddToRoleAsync(user, UserRoles.Member.ToString());
 
-            if (vm.LogIn)
-            {
-                await _signInManager.SignInAsync(user, true);
-                return RedirectToAction("Index", "Home");
-            }
 
-            return RedirectToAction(nameof(Login));
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+
+
+			object userStat = new
+			{
+				userid = user.Id,
+				token = token
+			};
+
+
+			var link = Url.Action("ConfirmEmail", "Account", userStat, HttpContext.Request.Scheme);
+
+
+            string confirmKey = Guid.NewGuid().ToString().Substring(0, 6).ToUpper();
+
+            user.ConfirmationKey = confirmKey;
+
+			await _userManager.UpdateAsync(user);
+
+			MailRequest mailRequest = new MailRequest()
+			{
+				Subject = "Confirm Email",
+				Body = $"<h2>Your security key is {confirmKey}</h2><a href='{link}'>Click for confirm your email.</a>",
+				ToEmail = vm.Email
+			};
+
+			await _mailService.SendEmailAsync(mailRequest);
+
+			return RedirectToAction(nameof(Login));
         }
 
 
-        public IActionResult Login()
+        public IActionResult ConfirmEmail()
+        {
+            return View();
+        }
+
+		[HttpPost]
+		public async Task<IActionResult> ConfirmEmail(string userId,string token, ConfirmEmailVm vm)
+		{
+			var user = await _userManager.FindByIdAsync(userId);
+
+            string key = vm.Key;
+
+
+			if (user == null || user.ConfirmationKey != key)
+			{
+				ModelState.AddModelError("Key", "Invalid confirmation key.");
+				return View(vm);
+			}
+
+			user.EmailConfirmed = true;
+			user.ConfirmationKey = null;
+			await _userManager.UpdateAsync(user);
+
+			return RedirectToAction("Login");
+		}
+
+
+
+		public IActionResult Login()
         {
             return View();
         }
