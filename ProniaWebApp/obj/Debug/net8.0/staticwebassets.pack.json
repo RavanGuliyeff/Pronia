@@ -7421,12 +7421,24 @@
       "PackagePath": "staticwebassets\\Manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\143e310b-2fef-496a-9ccb-268d5ff78fc41-3-570x633.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Product\\143e310b-2fef-496a-9ccb-268d5ff78fc41-3-570x633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\1881f1f4-a216-4218-9288-f4ff5c332f561-4-570x633.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Product\\1881f1f4-a216-4218-9288-f4ff5c332f561-4-570x633.jpg"
+    },
+    {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\2f75681b-9514-4c6b-be3b-5188b63de4001-2-270x300.jpg",
       "PackagePath": "staticwebassets\\Upload\\Product\\2f75681b-9514-4c6b-be3b-5188b63de4001-2-270x300.jpg"
     },
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\4843a245-a085-4cc0-baae-eaea7ad73dc98133737b8f2bc8bc270fce7b7d6ab6dc.jpg",
       "PackagePath": "staticwebassets\\Upload\\Product\\4843a245-a085-4cc0-baae-eaea7ad73dc98133737b8f2bc8bc270fce7b7d6ab6dc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\4c5f5863-3064-4a34-8cdf-1a44912829b31-270x300.webp",
+      "PackagePath": "staticwebassets\\Upload\\Product\\4c5f5863-3064-4a34-8cdf-1a44912829b31-270x300.webp"
     },
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\5574610f-7281-40bd-a817-b94944abceba1-1-570x633.jpg",
@@ -7461,6 +7473,10 @@
       "PackagePath": "staticwebassets\\Upload\\Product\\da0b8361-37b2-4aaa-9085-8ac5a07e41c1wp2879363.jpg"
     },
     {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\db7d3925-f770-4a49-b3e0-c699ea8ad7901-4-270x300.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Product\\db7d3925-f770-4a49-b3e0-c699ea8ad7901-4-270x300.jpg"
+    },
+    {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\ecd19761-7825-4704-96db-bfbcb5f029021-2-524x617.png",
       "PackagePath": "staticwebassets\\Upload\\Product\\ecd19761-7825-4704-96db-bfbcb5f029021-2-524x617.png"
     },
@@ -7471,6 +7487,10 @@
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\f9112305-8a69-4dd5-8cfe-012ee40baaabimages.jpg",
       "PackagePath": "staticwebassets\\Upload\\Product\\f9112305-8a69-4dd5-8cfe-012ee40baaabimages.jpg"
+    },
+    {
+      "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\fb5a39bf-4f87-4edf-b214-3d27343beb111-3-370x300.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Product\\fb5a39bf-4f87-4edf-b214-3d27343beb111-3-370x300.jpg"
     },
     {
       "Id": "C:\\Users\\revan\\Desktop\\Development\\CodeAcademy\\Tasks\\Pronia\\ProniaWebApp\\wwwroot\\Upload\\Product\\fcd79122-9601-40a7-84b3-b9734e41339bWhatsApp Image 2024-12-04 at 19.48.40_23e00acb.jpg",
